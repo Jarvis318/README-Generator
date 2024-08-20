@@ -1,2 +1,1 @@
-# README-Generator
-Creates a README generator sot that someone can quickly create a professional README for a new project
+{"fileName":"test","Description":"test","Table of Contents":"test","Installation":"tes1","Usage":"test","License":"CSS","Contributing":"asdf","Tests":"asdf","Questions":"asdf"}
