@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require("inquirer");
-// const { getFilename } = require('./generateMarkdown')
+const generateMarkdown  = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
 const questions = [{
@@ -9,10 +9,11 @@ const questions = [{
     name: "fileName",
     message: "What is your Project Title?"
 },{
+    type: "text",
     name: "Description",
     message: "Please provide a description of the project."
 },{
-    name: "Table of Contents",
+    name: "TableofContents",
     message: "Please list a Table of Contents:"
 },{
     name: "Installation",
@@ -24,7 +25,7 @@ const questions = [{
     type: "list",
     name: "License",
     message: "Please provide Licenses used.",
-    choices: ['HTML', 'CSS', 'JavaScript', 'PostgreSQL'],
+    choices: ['MIT', 'CSS', 'JavaScript', 'PostgreSQL'],
 },{
     name: "Contributing",
     message: "Please provide contribution details."
@@ -32,15 +33,18 @@ const questions = [{
     name: "Tests",
     message: "Please provide any testing data."
 },{
-    name: "Questions",
-    message: "Please provide content for a question section."
+    name: "GitHubName",
+    message: "Please provide your name on GitHub."
+},{
+    name: "Email",
+    message: "Please provide an email someone can contact you with."
+
 }];
 
 // TODO: Create a function to write README file
 
 const writeToFile = (data) => {
-    let info = JSON.stringify(data);
-    fs.writeFile(`./outputs/${data.fileName}.md`, info, err => {
+    fs.writeFile(`./outputs/${data.fileName}.md`, generateMarkdown(data), err => {
         err ? console.error(err) : console.log('README created!');
     })
 }
