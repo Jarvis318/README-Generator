@@ -276,21 +276,28 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.fileName}
-## Table of Contents
+## ${data.TableofContents}
 [Description](#Description)
+[Installation](#Installation)
 [License](#License)  
+[Tests](#Tests)
 [Questions](#Questions)  
 
 ## Description
-Copyright (c) ${data.GitHubName}
 ${data.Description}
 
+## Installation
+${data.Installation}
 
-##License
+
+## License
+Copyright (c) ${data.Contributing}
 ${renderLicenseBadge(data.License)}
 ${renderLicenseLink(data.License)}
 ${renderLicenseSection(data.License)}
 
+## Tests
+${data.Tests}
 
 ## Questions
 For any questions, please contact me at:

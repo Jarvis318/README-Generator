@@ -1,17 +1,17 @@
-# README Generator
+# Read Me Test
 ## Table of Contents
 [Description](#Description)
 [License](#License)  
 [Questions](#Questions)  
 
 ## Description
-This is a program designed to generate a professional readme by answering a few questions via prompt.
+Copyright (c) jarvis318
+This is a test for the README Generation app
 
 
 ##License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 https://opensource.org/license/mit
-Copyright (c) 2012-2024 Scott Chacon and others
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -36,4 +36,4 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Questions
 For any questions, please contact me at:
 Email: jarvwashington@gmail.com
-GitHub Profile Link: https://github.com/Jarvis318
+GitHub Profile Link: https://github.com/jarvis318
