@@ -25,7 +25,7 @@ const questions = [{
     type: "list",
     name: "License",
     message: "Please provide Licenses used.",
-    choices: ['MIT', 'CSS', 'JavaScript', 'PostgreSQL'],
+    choices: ['MIT', 'ISC License', 'Apache License 2.0', 'BSD License'],
 },{
     name: "Contributing",
     message: "Please provide contribution details."
