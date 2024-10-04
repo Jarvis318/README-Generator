@@ -1,17 +1,21 @@
 # README Generator
 ## Table of Contents
 [Description](#Description)
+[Instructional_Video](#Instructional_Video)
 [License](#License)  
 [Questions](#Questions)  
 
 ## Description
 This is a program designed to generate a professional readme by answering a few questions via prompt.
 
+## Instructional_Video
+https://drive.google.com/file/d/1chPEVKtPnM0oE4zrgo3uPSf-PS5Pty6t/view?usp=sharing
 
-##License
+
+## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 https://opensource.org/license/mit
-Copyright (c) 2012-2024 Scott Chacon and others
+Copyright (c) 2012-2024 Jarvis Washington
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
