@@ -1,8 +1,11 @@
 # README Generator
 ## Table of Contents
 [Description](#Description)
+
 [Instructional_Video](#Instructional_Video)
+
 [License](#License)  
+
 [Questions](#Questions)  
 
 ## Description
